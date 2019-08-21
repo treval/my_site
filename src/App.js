@@ -21,7 +21,7 @@ class App extends React.Component {
                 </div>
 
                 <div className='profile-pic-container'>
-                    <div className='profile-pic'>this will be my face...</div>
+                    <div className='profile-pic'></div>
                 </div>
 
                 <div className='about-container'>
@@ -64,7 +64,8 @@ class App extends React.Component {
 
                 <div className='contact-container'>
                     <p>e-mail me!</p>
-                    <textarea placeholder="Type your e-mail here..." rows='20' cols='80'></textarea>
+                    <textarea className='email-text-entry' placeholder="Type your e-mail here..."></textarea>
+                    <br></br>
                     <button style={{marginBottom: '5vh'}} onClick={e=>{e.preventDefault(); alert("You didn't really send me anything... this doesn't work yet.")}}>E-Mail!</button>
                 </div>
 

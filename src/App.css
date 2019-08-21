@@ -51,7 +51,6 @@
 
 .about-container {
   border-top: thin solid lightgray;
-  height: 80vh;
   width: 67vw;
   margin: 5vh auto;
 }
@@ -85,4 +84,10 @@
   height: 40vh;
   width: 67vw;
   margin: 5vh auto;
+}
+
+.email-text-entry {
+  height: 60vh;
+  width: 67vw;
+  overflow: hidden;
 }
